@@ -35,6 +35,12 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import pythonlarge from '../assets/pythonlarge.png'
+import sqllarge from '../assets/sqllarge.png'
+import tableaularge from '../assets/tableaularge.png'
+import jclogosize from '../assets/jclogosize.png'
+import jclogosmall from '../assets/jclogosmall.png'
+
 export default {
   email,
   mobile,
@@ -69,4 +75,9 @@ export default {
   nb,
   skype,
   spotify,
+  pythonlarge,
+  sqllarge,
+  tableaularge,
+  jclogosize,
+  jclogosmall,
 };
