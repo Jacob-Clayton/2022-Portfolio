@@ -11,17 +11,17 @@ const About = () => {
   useEffect(() => {
     const query = '*[_type == "abouts"]';
 
-    client.fetch(query).then((data) => {setAbouts(data);
+    client.fetch(query).then((data) => {
+      setAbouts(data);
     });
   }, []);
 
   return (
     <>
       <h2 className="head-text">I Know that <span>Good Analysis</span> <br />means  <span>Good Business</span></h2>
-        
-        <div className='app__profiles'>
-          {abouts.map((about, index) => {
-            return (
+      <div className='app__profiles'>
+        {abouts.map((about, index) => {
+          return (
             <motion.div
               whileInView={{ opacity: 1 }}
               whileHover={{ scale: 1.1 }}
@@ -33,8 +33,8 @@ const About = () => {
               <h2 className='bold-text' style={{ marginTop: 20}}>{about.title}</h2>
               <p className='p-text' style={{ marginTop: 10}}>{about.description}</p>
             </motion.div>
-          )})}
-        </div> 
+        )})}
+      </div> 
     </>
   );
 };
