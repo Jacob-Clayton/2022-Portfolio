@@ -41,6 +41,8 @@ import tableaularge from '../assets/tableaularge.png'
 import jclogosize from '../assets/jclogosize.png'
 import jclogosmall from '../assets/jclogosmall.png'
 
+import blob from '../assets/blob.svg'
+
 export default {
   email,
   mobile,
@@ -80,4 +82,5 @@ export default {
   tableaularge,
   jclogosize,
   jclogosmall,
+  blob,
 };
