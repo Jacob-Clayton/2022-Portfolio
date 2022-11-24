@@ -35,6 +35,7 @@ const Skills = () => {
               transition={{ duration: 0.5 }}
               className="app__skills-item app__flex"
               key={skill.name}
+              whileHover={{ scale: 1.05 }}
             >
               <div
                 className="app__flex"

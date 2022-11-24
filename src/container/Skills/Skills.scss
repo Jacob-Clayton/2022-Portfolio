@@ -44,6 +44,7 @@
       height: 90px;
       border-radius: 50%;
       background-color: #e2edf6;
+      
   
       img {
         width: 50%;
@@ -56,7 +57,7 @@
       }
   
       &:hover {
-        box-shadow: 0 0 25px #e7f4ff;
+        box-shadow: 0 0 15px #e7f4ff;
       }
   
       @media screen and (min-width: 2000px) {

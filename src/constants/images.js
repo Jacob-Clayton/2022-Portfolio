@@ -44,6 +44,7 @@ import gmail from '../assets/gmail.png'
 
 import blob from '../assets/blob.svg'
 import linkedin from '../assets/linkedin.svg'
+import bgblue from '../assets/bgblue.png'
 
 export default {
   email,
@@ -87,4 +88,5 @@ export default {
   blob,
   gmail,
   linkedin,
+  bgblue,
 };
