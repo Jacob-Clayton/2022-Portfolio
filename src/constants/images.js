@@ -40,8 +40,10 @@ import sqllarge from '../assets/sqllarge.png'
 import tableaularge from '../assets/tableaularge.png'
 import jclogosize from '../assets/jclogosize.png'
 import jclogosmall from '../assets/jclogosmall.png'
+import gmail from '../assets/gmail.png'
 
 import blob from '../assets/blob.svg'
+import linkedin from '../assets/linkedin.svg'
 
 export default {
   email,
@@ -83,4 +85,6 @@ export default {
   jclogosize,
   jclogosmall,
   blob,
+  gmail,
+  linkedin,
 };
