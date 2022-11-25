@@ -81,7 +81,7 @@ const Footer = () => {
         </motion.div>
         <motion.div 
         className="app__footer-card-cert"
-        whileHover={{scale:1.05}}
+        whileHover={{scale:1.03}}
         whileTap={{scale:0.4}}
         >
           <img src={images.google} alt="google" />
@@ -91,7 +91,7 @@ const Footer = () => {
       <br/>
       <br/>
       <br/>
-      <h2 className="head-text">Get in touch with me</h2>
+      <h2>Get in touch with me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card1">

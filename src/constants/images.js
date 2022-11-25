@@ -52,6 +52,7 @@ import apicog from '../assets/apicog.png'
 import blob from '../assets/blob.svg'
 import linkedin from '../assets/linkedin.svg'
 import bgblue from '../assets/bgblue.png'
+import bgblue2 from '../assets/bgblue2.png'
 import ucdavisblue from '../assets/ucdavisblue.svg'
 
 export default {
@@ -97,6 +98,7 @@ export default {
   gmail,
   linkedin,
   bgblue,
+  bgblue2,
   meta,
   google,
   ucdavis,

@@ -27,7 +27,7 @@ const Header = () => {
       >
         <div className='app__header-badge'>
           <div className='badge-cmp app__flex'>
-            <span>👋</span>
+          {/*<span>👋</span>*/}
             <div style={{ marginLeft: 20 }}>
               <p className='p-text'>Hi, my name is</p>
               <h1 className='head-text'>Jacob</h1>
@@ -35,7 +35,6 @@ const Header = () => {
           </div>
 
           <div className='tag-cmp app__flex'>
-          <p>I am a</p> 
           <p className='p-text'>Full Stack Dev</p>
           <p className='p-text'>& Data Analyst</p>
           </div>
