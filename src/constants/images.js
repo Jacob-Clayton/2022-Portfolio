@@ -41,10 +41,18 @@ import tableaularge from '../assets/tableaularge.png'
 import jclogosize from '../assets/jclogosize.png'
 import jclogosmall from '../assets/jclogosmall.png'
 import gmail from '../assets/gmail.png'
+import meta from '../assets/meta.png'
+import google from '../assets/google.png'
+import michigan from '../assets/michigan.png'
+import ucdavis from '../assets/ucdavis.png'
+import ucdavislong from '../assets/ucdavislong.png'
+import reacthd from '../assets/reacthd.png'
+import apicog from '../assets/apicog.png'
 
 import blob from '../assets/blob.svg'
 import linkedin from '../assets/linkedin.svg'
 import bgblue from '../assets/bgblue.png'
+import ucdavisblue from '../assets/ucdavisblue.svg'
 
 export default {
   email,
@@ -89,4 +97,12 @@ export default {
   gmail,
   linkedin,
   bgblue,
+  meta,
+  google,
+  ucdavis,
+  michigan,
+  ucdavislong,
+  ucdavisblue,
+  apicog,
+  reacthd,
 };

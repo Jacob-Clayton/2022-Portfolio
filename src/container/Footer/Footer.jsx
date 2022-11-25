@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -37,47 +37,80 @@ const Footer = () => {
 
   return (
     <>
+      <h2 className="head-text">Certificates</h2>
+      <div className="app__footer-cards">
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.google} alt="google" />
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Google Data Analytics</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.meta} alt="meta" />
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Programming in Python</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.michigan} alt="michiganucdavisucdavisgoogle" />
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Python Specialisation</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.ucdavisblue} alt="ucdavis" />
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">SQL for Data Science</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.ucdavisblue} alt="ucdavis" />
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Tableau</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.google} alt="google" />
+          <a href="" className="p-text">R Programming</a>
+        </motion.div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
       <h2 className="head-text">Get in touch with me</h2>
 
       <div className="app__footer-cards">
-        <div className="app__footer-card ">
+        <div className="app__footer-card1">
           <img src={images.gmail} alt="email" />
-          <a href="mailto:jacobeclayton@gmail.com" className="p-text">jacobeclayton@gmail.com</a>
+          <p className="p-text">jacobeclayton@gmail.com</p>
         </div>
-        <div className="app__footer-card">
-          <img src={images.linkedin} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">linkedin.com/in/jebclayton/</a>
-        </div>
+        <motion.div 
+        className="app__footer-card"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}        
+        >
+          <img src={images.linkedin} alt="linkedin" />
+          <a href="http://linkedin.com/in/jebclayton" className="p-text">linkedin.com/in/jebclayton/</a>
+        </motion.div>
       </div>
-      {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
-          <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
-          </div>
-          <div className="app__flex">
-            <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
-          </div>
-          <div>
-            <textarea
-              className="p-text"
-              placeholder="Your Message"
-              value={message}
-              name="message"
-              onChange={handleChangeInput}
-            />
-          </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-        </div>
-      ) : (
-        <div>
-          <h3 className="head-text">
-            Thank you for getting in touch!
-          </h3>
-        </div>
-      )}
     </>
   );
 };
+
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
