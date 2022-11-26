@@ -53,23 +53,15 @@ const Footer = () => {
         whileTap={{scale:0.4}}
         >
           <img src={images.meta} alt="meta" />
-          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Programming in Python</a>
+          <a href="https://www.coursera.org/account/accomplishments/verify/65HAEV27YU4K" className="p-text">Programming in Python</a>
         </motion.div>
         <motion.div 
         className="app__footer-card-cert"
         whileHover={{scale:1.05}}
         whileTap={{scale:0.4}}
         >
-          <img src={images.michigan} alt="michiganucdavisucdavisgoogle" />
-          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Python Specialisation</a>
-        </motion.div>
-        <motion.div 
-        className="app__footer-card-cert"
-        whileHover={{scale:1.05}}
-        whileTap={{scale:0.4}}
-        >
-          <img src={images.ucdavisblue} alt="ucdavis" />
-          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">SQL for Data Science</a>
+          <img src={images.michigan} alt="michigan" />
+          <a href="https://www.coursera.org/account/accomplishments/specialization/HE5LFX58QDSK" className="p-text">Python Specialisation</a>
         </motion.div>
         <motion.div 
         className="app__footer-card-cert"
@@ -77,7 +69,15 @@ const Footer = () => {
         whileTap={{scale:0.4}}
         >
           <img src={images.ucdavisblue} alt="ucdavis" />
-          <a href="https://www.coursera.org/account/accomplishments/professional-cert/RN7GNF7XXK4Q" className="p-text">Tableau</a>
+          <a href="https://www.coursera.org/account/accomplishments/verify/JBU4LT9T7CSW" className="p-text">SQL for Data Science</a>
+        </motion.div>
+        <motion.div 
+        className="app__footer-card-cert"
+        whileHover={{scale:1.05}}
+        whileTap={{scale:0.4}}
+        >
+          <img src={images.ucdavisblue} alt="ucdavis" />
+          <a href="https://www.coursera.org/account/accomplishments/verify/BSC823S6CKNB" className="p-text">Tableau</a>
         </motion.div>
         <motion.div 
         className="app__footer-card-cert"
@@ -85,7 +85,7 @@ const Footer = () => {
         whileTap={{scale:0.4}}
         >
           <img src={images.google} alt="google" />
-          <a href="" className="p-text">R Programming</a>
+          <a href="https://www.coursera.org/account/accomplishments/verify/VRUZF7T3B94H" className="p-text">R Programming</a>
         </motion.div>
       </div>
       <br/>
