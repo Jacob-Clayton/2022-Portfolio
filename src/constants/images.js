@@ -6,16 +6,12 @@ import css from '../assets/css.png';
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
 import git from '../assets/git.png';
-import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
-import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
-import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
-import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
 import about01 from '../assets/about01.png';
@@ -30,7 +26,6 @@ import logo from '../assets/logo.png';
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
-import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
@@ -40,12 +35,12 @@ import sqllarge from '../assets/sqllarge.png'
 import tableaularge from '../assets/tableaularge.png'
 import jclogosize from '../assets/jclogosize.png'
 import jclogosmall from '../assets/jclogosmall.png'
+import jclogo from '../assets/jclogo.png'
 import gmail from '../assets/gmail.png'
 import meta from '../assets/meta.png'
 import google from '../assets/google.png'
 import michigan from '../assets/michigan.png'
 import ucdavis from '../assets/ucdavis.png'
-import ucdavislong from '../assets/ucdavislong.png'
 import reacthd from '../assets/reacthd.png'
 import apicog from '../assets/apicog.png'
 
@@ -64,16 +59,12 @@ export default {
   figma,
   flutter,
   git,
-  graphql,
   html,
   javascript,
-  mu5,
   node,
   python,
   react,
-  redux,
   sass,
-  typescript,
   vue,
   about01,
   about02,
@@ -85,7 +76,6 @@ export default {
   adidas,
   amazon,
   asus,
-  bolt,
   nb,
   skype,
   spotify,
@@ -103,8 +93,8 @@ export default {
   google,
   ucdavis,
   michigan,
-  ucdavislong,
   ucdavisblue,
   apicog,
   reacthd,
+  jclogo,
 };
