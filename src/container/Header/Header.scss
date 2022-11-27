@@ -2,7 +2,7 @@
     position: relative;
     background-image:
     linear-gradient(to bottom, transparent, rgb(255, 255, 255)),
-    url("../../assets/bgblue2.png");
+    url("../../assets/cloud.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@
   
     .tag-cmp {
       flex-direction: column;
-      margin-top: 3rem;
+      margin-top: 2rem;
       margin-right: 1.55rem;
   
       p {

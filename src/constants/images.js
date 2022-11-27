@@ -43,12 +43,14 @@ import michigan from '../assets/michigan.png'
 import ucdavis from '../assets/ucdavis.png'
 import reacthd from '../assets/reacthd.png'
 import apicog from '../assets/apicog.png'
+import cloud from '../assets/cloud.png'
 
 import blob from '../assets/blob.svg'
 import linkedin from '../assets/linkedin.svg'
 import bgblue from '../assets/bgblue.png'
 import bgblue2 from '../assets/bgblue2.png'
 import ucdavisblue from '../assets/ucdavisblue.svg'
+import bloblb from '../assets/bloblb.svg'
 
 export default {
   email,
@@ -97,4 +99,6 @@ export default {
   apicog,
   reacthd,
   jclogo,
+  cloud,
+  bloblb,
 };

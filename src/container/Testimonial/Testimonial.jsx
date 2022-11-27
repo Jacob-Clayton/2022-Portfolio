@@ -48,7 +48,7 @@ const Testimonial = () => {
             <motion.div 
             className="app__flex" 
             whileHover={{scale:1.05}} 
-            whileTap={{scale:0.4}}
+            whileTap={{scale:0.9}}
             transition={{duration: 0.1}} 
             onClick={() => handleClick(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1)}>
               <HiChevronLeft />
@@ -57,7 +57,7 @@ const Testimonial = () => {
             <motion.div 
             className="app__flex" 
             whileHover={{scale:1.05}} 
-            whileTap={{scale:0.4}}
+            whileTap={{scale:0.9}}
             transition={{duration: 0.1}} 
             onClick={() => handleClick(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1)}>
               <HiChevronRight />
