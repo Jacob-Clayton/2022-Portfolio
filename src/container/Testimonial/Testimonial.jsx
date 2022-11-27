@@ -32,6 +32,7 @@ const Testimonial = () => {
     <>
       {testimonials.length && (
         <>
+        <h2 className='head-text'>People I've worked with</h2>
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(testimonials[currentIndex].imgurl)} alt={testimonials[currentIndex].name} />
             <div className="app__testimonial-content">
@@ -44,20 +45,26 @@ const Testimonial = () => {
           </div>
 
           <div className="app__testimonial-btns app__flex">
-            <div className="app__flex" onClick={() => handleClick(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1)}>
+            <motion.div 
+            className="app__flex" 
+            whileHover={{scale:1.05}} 
+            whileTap={{scale:0.4}}
+            transition={{duration: 0.1}} 
+            onClick={() => handleClick(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1)}>
               <HiChevronLeft />
-            </div>
+            </motion.div>
 
-            <div className="app__flex" onClick={() => handleClick(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1)}>
+            <motion.div 
+            className="app__flex" 
+            whileHover={{scale:1.05}} 
+            whileTap={{scale:0.4}}
+            transition={{duration: 0.1}} 
+            onClick={() => handleClick(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1)}>
               <HiChevronRight />
-            </div>
+            </motion.div>
           </div>
         </>
       )}
-      <br/>
-      <br/>
-      <br/>
-      <h1>I've worked with...</h1>
       <div className="app__testimonial-brands app__flex">
         {brands.map((brand) => (
           <motion.div

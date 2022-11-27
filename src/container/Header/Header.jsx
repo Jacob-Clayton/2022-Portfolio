@@ -22,21 +22,24 @@ const Header = () => {
     <div className='app__header app__flex'>
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delayChildren: 1 }}
         className='app__header-info'
       >
         <div className='app__header-badge'>
           <div className='badge-cmp app__flex'>
           {/*<span>👋</span>*/}
-            <div style={{ marginLeft: 20 }}>
+            <div style={{ marginLeft: 10 }}>
               <p className='p-text'>Hi, my name is</p>
-              <h1 className='head-text'>Jacob</h1>
+              <h1 className='head-text-name'>Jacob</h1>
             </div>
           </div>
-
+          <div className='tag-cmp app__flex'>
+            <p className='p-text'>Data Analyst</p>
+          </div>
+        </div>
+        <div className='app__header-badge'>
           <div className='tag-cmp app__flex'>
           <p className='p-text'>Full Stack Dev</p>
-          <p className='p-text'>& Data Analyst</p>
           </div>
         </div>
       </motion.div>

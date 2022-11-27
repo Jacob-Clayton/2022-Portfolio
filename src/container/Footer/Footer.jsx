@@ -37,11 +37,30 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Certificates</h2>
+      <h2 className='head-text'>Get in touch with me</h2>
+
+      <div className="app__footer-cards">
+        <div className="app__footer-card1">
+          <img src={images.gmail} alt="email" />
+          <p className="p-text">jacobeclayton@gmail.com</p>
+        </div>
+        <motion.div 
+        className="app__footer-card"
+        whileHover={{scale:1.04}}
+        whileTap={{scale:0.4}}        
+        >
+          <img src={images.linkedin} alt="linkedin" />
+          <a href="http://linkedin.com/in/jebclayton" className="p-text">linkedin.com/in/jebclayton/</a>
+        </motion.div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <h2>and finally, my certificates...</h2>
       <div className="app__footer-cards">
         <motion.div 
         className="app__footer-card-cert"
-        whileHover={{scale:1.05}}
+        whileHover={{scale:1.04}}
         whileTap={{scale:0.4}}
         >
           <img src={images.google} alt="google" />
@@ -86,25 +105,6 @@ const Footer = () => {
         >
           <img src={images.google} alt="google" />
           <a href="https://www.coursera.org/account/accomplishments/verify/VRUZF7T3B94H" className="p-text">R Programming</a>
-        </motion.div>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <h2>Get in touch with me</h2>
-
-      <div className="app__footer-cards">
-        <div className="app__footer-card1">
-          <img src={images.gmail} alt="email" />
-          <p className="p-text">jacobeclayton@gmail.com</p>
-        </div>
-        <motion.div 
-        className="app__footer-card"
-        whileHover={{scale:1.05}}
-        whileTap={{scale:0.4}}        
-        >
-          <img src={images.linkedin} alt="linkedin" />
-          <a href="http://linkedin.com/in/jebclayton" className="p-text">linkedin.com/in/jebclayton/</a>
         </motion.div>
       </div>
     </>
