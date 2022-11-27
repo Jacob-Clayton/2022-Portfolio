@@ -58,6 +58,8 @@
       line-height: 2rem;
       color: var(--black-color);
       font-family: var(--font-base);
+      font-style: italic;
+      font-weight: 300;
   
       @media screen and (min-width: 2000px) {
         font-size: 2rem;

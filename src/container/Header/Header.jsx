@@ -12,7 +12,7 @@ const scaleVarients = {
     opacity: [0, 1],
     transition: {
       duration: 1,
-      ease: 'easeInOut'
+      ease: 'easeInOut',
     }
   }
 }
@@ -21,8 +21,8 @@ const Header = () => {
   return (
     <div className='app__header app__flex'>
       <motion.div
-        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 1, delayChildren: 1 }}
+        variants={scaleVarients}
+        whileInView={scaleVarients.whileInView}
         className='app__header-info'
       >
         <div className='app__header-badge'>
@@ -35,11 +35,7 @@ const Header = () => {
           </div>
           <div className='tag-cmp app__flex'>
             <p className='p-text'>Data Analyst</p>
-          </div>
-        </div>
-        <div className='app__header-badge'>
-          <div className='tag-cmp app__flex'>
-          <p className='p-text'>Full Stack Dev</p>
+            <p className='p-text'>& Full Stack Dev</p>
           </div>
         </div>
       </motion.div>
