@@ -60,7 +60,7 @@ const Header = () => {
         className="app__header-circles"
       >
         {[images.tableaularge, images.pythonlarge, images.sqllarge].map((circle, index) => (
-          <div className='circle-cmp app__flex' key={'circle-index'}>
+          <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt='circle'/>
           </div>
         ))}
