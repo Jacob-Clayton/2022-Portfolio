@@ -47,3 +47,17 @@
     }
   }
 }
+
+.app__desc {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  p {
+    text-align: center;
+  }
+
+}

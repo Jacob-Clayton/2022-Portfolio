@@ -35,6 +35,9 @@ const About = () => {
               </motion.div>
           )})}
       </div> 
+      <div className='app__desc'>
+        <p className='p-text'>I am a good worker please hire me as a data analyst. I have done this and that and worked hard a lot, you should relly consider me.</p>
+      </div>
     </>
   );
 };

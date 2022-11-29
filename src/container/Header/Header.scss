@@ -78,12 +78,13 @@
   
     .tag-cmp {
       flex-direction: column;
-      margin-top: 2rem;
+      margin-top: 2.2rem;
       margin-right: 1.55rem;
   
       p {
         width: 100%;
         text-align: center;
+        font-size: 0.9rem;
       }
     }
   
@@ -179,16 +180,17 @@
   .app__header-img {
     flex: 1;
     height: 100%;
-  
+
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 
     img {
-      width: 70%;
+      width: 85%;
       object-fit: contain;
       z-index: 1;
+      margin-right: 30px;      
     }
   
     .overlay_circle {
@@ -200,6 +202,7 @@
       width: 100%;
       height: 100%;
       filter: drop-shadow(0px 0px 50px rgba(147, 221, 255, 0.4));
+
     }
   
     @media screen and (max-width: 1200px) {
