@@ -45,13 +45,13 @@ const Header = () => {
         className='app__header-img'
       >
         <img src={images.kolsaspfp} alt="profile-bg"/>
-        <motion.img
+        {/*<motion.img
           variants={scaleVarients}
           whileInView={scaleVarients.whileInView}
           src={images.bloblb}
           alt="profile-circle"
           className="overlay_circle"
-        />
+        />*/}
       </motion.div>
 
       <motion.div
