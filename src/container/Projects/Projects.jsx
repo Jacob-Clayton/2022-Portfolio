@@ -6,7 +6,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Projects.scss';
 
-const Work = () => {
+const Projects = () => {
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text"><span>Portfolio</span> Projects</h2>
 
       <div className="app__work-filter">
-        {['Python', 'Web Dev', 'SQL', 'Visualisation', 'Spreadsheet', 'All'].map((item, index) => (
+        {['Python', 'Web Dev', 'SQL', 'Visualisation', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -109,7 +109,7 @@ const Work = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works'),
+  MotionWrap(Projects, 'app__works'),
   'projects',
   'app__primarybg',
 );
