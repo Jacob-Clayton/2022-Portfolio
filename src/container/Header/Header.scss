@@ -71,8 +71,8 @@
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
       z-index: 1;
 
-      .head-text {
-        font-weight: 600;
+      .head-text-name {
+        font-weight: 500;
       }
     }
   
@@ -87,9 +87,17 @@
         font-size: 0.9rem;
       }
     }
+
+    .wave {
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: infinite;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+    }  
   
     span {
-      font-size: 2.5rem;
+      font-size: 2.5rem;    
   
       @media screen and (min-width: 2000px) {
         font-size: 5rem;
@@ -209,3 +217,14 @@
       margin: 2rem 0;
     }
   }
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
