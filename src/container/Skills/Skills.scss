@@ -102,7 +102,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
   }
   
   .app__skills-exp-works {
@@ -113,22 +113,31 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      margin-bottom: 1rem;
+      margin-bottom: 0.8rem;
   
       h4 {
         font-weight: 500;
+        font-size: 1rem;
       }
   
-      p {
+      .p-text {
         font-weight: 400;
         color: var(--gray-color);
-        margin-top: 5px;
+        margin-top: 2px;
+      }
+
+      .p-text-company {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: var(--gray-color);
+        margin-top: 2px;
+        margin-bottom: 2px;
       }
     }
   }
   
   .app__skills-exp-year {
-    margin-right: 3rem;
+    margin-right: 2rem;
   
     p {
       font-weight: 800;

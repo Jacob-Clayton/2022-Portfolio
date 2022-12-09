@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
+import { BsChevronDoubleUp } from 'react-icons/bs'
 import './Footer.scss';
 
 {/*const Footer = () => {
@@ -37,7 +38,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <>
-      <h2 className='head-text'>Get in touch with me</h2>
+      <h2 className='head-text'>Get in touch with <span>me</span></h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card1">
@@ -55,11 +56,19 @@ const Footer = () => {
             <p className='p-text'>linkedin.com/in/jebclayton</p>
           </motion.div>
         </a>
-
       </div>
-      <br/>
-      <br/>
-      <br/>
+      {/*<div className="scrollDiv">
+          <motion.a 
+          href="#home" 
+          className="flex"
+          whileTap={{opacity: 0, scale: 0.95}}
+          transition={{duration: 0.3}}
+          >
+            <BsChevronDoubleUp className="icon"/>
+          </motion.a>
+          <p>Top</p>
+        </div>
+
       <h2>and finally, my certificates...</h2>
       <div className="app__footer-cards">
 
@@ -128,7 +137,7 @@ const Footer = () => {
             <p className="p-text">R Programming</p>
           </motion.div>
         </a>
-      </div>
+      </div>*/}
     </>
   );
 };
@@ -137,5 +146,5 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
   'contact',
-  'app__whitebg',
+  'app__primarybg',
 );

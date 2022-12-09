@@ -20,23 +20,18 @@
     align-items: center;
 
     p {
-        font-weight: 400;
-        font-size: 1.5rem;
+        font-family: var(--font-jost);
+        font-weight: 500;
+        font-size: 1.4rem;
         color: var(--secondary-color);
     }
     
-
-    img {
-        width: 90px;
-        height: 20px;
-
-
         @media screen and (min-width: 2000px) {
             width: 180px;
             height: 40px;  
         }
     }
-}
+
 
 .app__navbar-links {
     flex:  1;
@@ -46,11 +41,11 @@
     list-style: none;
 
     li {
-        margin: 0 1rem;
+        margin: 0 0.8rem;
         cursor: pointer;
         position: relative left 50px;
-
-        flex-direction: column;
+        font-size: 1.1rem;
+        flex-direction: row;
 
         &:hover {
             div {
@@ -59,20 +54,21 @@
         }
 
         div {
-            width: 5px;
-            height: 5px;
+            width: 6px;
+            height: 6px;
             background-color: transparent;
             border-radius: 50%;
-            margin-bottom: 5px;
+            margin-right: 5px;
         }
 
         a {
+            font-family: var(--font-jost);
             color: var(--gray-color);
             text-decoration: none;
-            flex-direction: column;
-            text-transform: uppercase;
-            font-weight: 500;
-            transform: all 0.3s ease-in-out;
+            flex-direction: row;
+            text-transform: capitalize;
+            font-weight: 400;
+            transform: all 0.2s ease-in-out;
 
             &:hover {
                color: var(--secondary-color); 
@@ -109,13 +105,13 @@
         right: 0;
         z-index: 5;
         padding: 1rem;
-        width: 50%;
+        width: 40%;
         height: 100vh;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.85);
+        background: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
@@ -123,7 +119,7 @@
         svg {
             width: 35px;
             height: 35px;
-            color: var(--gray-color); 
+            color: var(--secondary-color); 
             margin: 0.5rem 1rem;
         }
 
