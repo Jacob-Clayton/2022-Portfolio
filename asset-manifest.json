@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdc327d4.css",
-    "main.js": "/static/js/main.384d6271.js",
+    "main.css": "/static/css/main.973debd2.css",
+    "main.js": "/static/js/main.fd288fce.js",
     "static/media/cloud.png": "/static/media/cloud.f3b890791adeda0f1b33.png",
     "static/media/kolsaspfpwhite.png": "/static/media/kolsaspfpwhite.71353167e9d93e2a7384.png",
     "static/media/jacobpfp.png": "/static/media/jacobpfp.f74e7dfe1043823a5fde.png",
+    "static/media/kolsaspfp.png": "/static/media/kolsaspfp.f8d0f962e9917ae940ea.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/bgblue2.png": "/static/media/bgblue2.68773a1c6b7260d0f052.png",
@@ -43,11 +44,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.cdc327d4.css.map": "/static/css/main.cdc327d4.css.map",
-    "main.384d6271.js.map": "/static/js/main.384d6271.js.map"
+    "main.973debd2.css.map": "/static/css/main.973debd2.css.map",
+    "main.fd288fce.js.map": "/static/js/main.fd288fce.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdc327d4.css",
-    "static/js/main.384d6271.js"
+    "static/css/main.973debd2.css",
+    "static/js/main.fd288fce.js"
   ]
 }
