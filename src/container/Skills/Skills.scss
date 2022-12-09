@@ -80,6 +80,7 @@
   
       p {
         margin-top: 1rem;
+        font-size: 1.5rem;
       }
     }
   }
@@ -118,12 +119,32 @@
       h4 {
         font-weight: 500;
         font-size: 1rem;
+
+        @media screen and (min-width: 2000px) {
+          font-weight: 500;
+          font-size: 1.8rem;
+        }
+    
+        @media screen and (max-width: 450px) {
+          font-weight: 500;
+          font-size: 0.9rem;
+        }
       }
   
       .p-text {
         font-weight: 400;
         color: var(--gray-color);
         margin-top: 2px;
+
+        @media screen and (min-width: 2000px) {
+          font-weight: 400;
+          font-size: 1.5rem;
+        }
+    
+        @media screen and (max-width: 450px) {
+          font-weight: 400;
+          font-size: 0.9rem;
+        }
       }
 
       .p-text-company {
@@ -132,6 +153,16 @@
         color: var(--gray-color);
         margin-top: 2px;
         margin-bottom: 2px;
+
+        @media screen and (min-width: 2000px) {
+          font-weight: 400;
+          font-size: 1.5rem;
+        }
+    
+        @media screen and (max-width: 450px) {
+          font-weight: 400;
+          font-size: 0.9rem;
+        }
       }
     }
   }

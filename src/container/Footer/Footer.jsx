@@ -41,11 +41,6 @@ const Footer = () => {
       <h2 className='head-text'>Get in touch with <span>me</span></h2>
 
       <div className="app__footer-cards">
-        <div className="app__footer-card1">
-          <img src={images.gmail} alt="email" />
-          <p className="p-text">jacobeclayton@gmail.com</p>
-        </div>
-
         <a href="http://linkedin.com/in/jebclayton">
           <motion.div 
           className="app__footer-card"
@@ -56,6 +51,10 @@ const Footer = () => {
             <p className='p-text'>linkedin.com/in/jebclayton</p>
           </motion.div>
         </a>
+        <div className="app__footer-card">
+          <img src={images.gmail} alt="email" />
+          <p className="p-text">jacobeclayton@gmail.com</p>
+        </div>
       </div>
       {/*<div className="scrollDiv">
           <motion.a 

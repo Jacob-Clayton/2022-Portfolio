@@ -1,7 +1,7 @@
 #home {
     position: relative;
     background-image:
-    linear-gradient(to bottom, transparent, rgb(255, 255, 255)),
+    linear-gradient(to bottom, transparent, transparent, rgb(255, 255, 255)),
     url("../../assets/cloud.png");
     background-size: cover;
     background-position: center;
@@ -32,7 +32,8 @@
         letter-spacing: 0.3px;
 
         @media screen and (min-width: 2000px) {
-          font-size: 1.4rem;
+          font-size: 2rem;
+          line-height: 2rem;
         }
       
         @media screen and (max-width: 700px) {
@@ -45,16 +46,19 @@
         color: var(--secondary-color);
         font-weight: 500;
         line-height: 5rem;
-        padding-top: 0rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 1rem;
 
         @media screen and (min-width: 2000px) {
-          font-size: 5.5rem;
+          font-size: 7rem;
+          line-height: 8rem;
+          padding-bottom: 1.7rem;
         }
       
         @media screen and (max-width: 700px) {
           font-size: 4rem;
-          line-height: 6rem;
+          line-height: 4rem;
+          padding-bottom: 1rem;
         }
       }
 
@@ -63,26 +67,34 @@
         font-size: 3.4rem;
         font-weight: 500;
         color: var(--gray-color);
-        line-height: 2.5rem;
-        padding-bottom: 1.5rem;
+        line-height: 2.8rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
 
         @media screen and (min-width: 2000px) {
-          font-size: 4rem;
+          font-size: 5rem;
+          line-height: 5rem;
         }
       
         @media screen and (max-width: 700px) {
           font-size: 2.5rem;
+          line-height: 2.5rem;
+          padding-bottom: 0.5rem;
         }
       }
 
       .homeParagraph {
         font-size: 1.2rem;
         color: var(--gray-color);
+        padding-top: 0.5rem;
         padding-bottom: 4rem;
         max-width: 600px;
+        
 
         @media screen and (min-width: 2000px) {
           font-size: 2rem;
+          line-height: 2.5rem;
+          max-width: 800px;
         }
       
         @media screen and (max-width: 700px) {
@@ -164,6 +176,8 @@
     }
   
   }
+
+
 
 
 

@@ -38,7 +38,7 @@ const Header = () => {
         </span>
 
         <p className='homeParagraph'>
-          I Analyse and visualise data to make data-driven decisions.
+          Analyse and visualise data to make data-driven decisions.
           <br/>Web developer & UI/ UX designer.
           <br/>I love building cool things.
         </p>
