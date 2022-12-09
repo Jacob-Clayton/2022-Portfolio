@@ -38,17 +38,17 @@ const Header = () => {
         </span>
 
         <p className='homeParagraph'>
-          Analyse and visualise data to make data-driven decisions.
-          <br/>Web developer & UI/ UX designer.
-          <br/>I love building cool things.
+        Using data analysis to better inform the decision-making process.
+          <br/>I love coding cool things.
         </p>
 
         <div className="scrollDiv">
           <motion.a 
           href="#about" 
           className="flex"
-          whileTap={{opacity: 0, scale: 0.95}}
-          transition={{duration: 0.3}}
+          whileInView={{ opacity: [0, 1] }}
+          whileTap={{opacity: 0.2, scale: 0.95}}
+          transition={{duration: 5}}
           >
             <BsChevronDoubleDown className="icon"/>
           </motion.a>

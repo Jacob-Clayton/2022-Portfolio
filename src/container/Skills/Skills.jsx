@@ -106,7 +106,7 @@ const Skills = () => {
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}>
             <div className="app__skills-exp-year">
-              <p className="bold-text">2022</p>
+              <p className="bold-text">Other</p>
             </div>
               <motion.div className="app__skills-exp-works">
                 <motion.div 
