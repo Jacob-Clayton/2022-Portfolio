@@ -24,6 +24,14 @@
         font-weight: 500;
         font-size: 1.4rem;
         color: var(--secondary-color);
+
+        @media screen and (min-width: 2000px) {
+            font-size: 1.8rem;
+          }
+        
+        @media screen and (max-width: 700px) {
+            font-size: 1.2rem;
+          }
     }
     
         @media screen and (min-width: 2000px) {
@@ -69,6 +77,14 @@
             text-transform: capitalize;
             font-weight: 400;
             transform: all 0.2s ease-in-out;
+
+            @media screen and (min-width: 2000px) {
+                font-size: 1.5rem;
+              }
+            
+            @media screen and (max-width: 700px) {
+                font-size: 0.9rem;
+              }
 
             &:hover {
                color: var(--secondary-color); 
@@ -143,6 +159,7 @@
                 font-size: 1rem;
                 text-transform: uppercase;
                 font-weight: 500;
+
                 &:hover {
                     color: var(--secondary-color); 
                  }

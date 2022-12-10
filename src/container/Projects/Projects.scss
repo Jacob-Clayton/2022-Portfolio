@@ -66,8 +66,8 @@
       }
   
       @media screen and (min-width: 2000px) {
-        width: 470px;
-        padding: 1.25rem;
+        width: 420px;
+        padding: 1.5rem;
         border-radius: 0.75rem;
       }
   
@@ -137,6 +137,12 @@
     width: 100%;
     position: relative;
     flex-direction: column;
+
+    p {
+      @media screen and (min-width: 2000px) {
+        font-size: 1.5rem;
+      }
+    }
   
     h4 {
       margin-top: 1rem;
@@ -144,8 +150,10 @@
   
       @media screen and (min-width: 2000px) {
         margin-top: 3rem;
+        font-size: 1.8rem;
       }
     }
+
   
     .app__work-tag {
       position: absolute;

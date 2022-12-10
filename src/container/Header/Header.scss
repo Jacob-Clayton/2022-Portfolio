@@ -1,8 +1,6 @@
 #home {
     position: relative;
-
-    background-image:
-    linear-gradient(to bottom, transparent, transparent, rgb(255, 255, 255)),
+    background: linear-gradient(to bottom, transparent, var(--white-color)), 
     url("../../assets/cloud.png");
     background-size: cover;
     background-position: center;
@@ -95,7 +93,7 @@
         @media screen and (min-width: 2000px) {
           font-size: 2rem;
           line-height: 2.5rem;
-          max-width: 800px;
+          max-width: 1000px;
         }
       
         @media screen and (max-width: 700px) {
