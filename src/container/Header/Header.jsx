@@ -32,7 +32,7 @@ const Header = () => {
         </motion.span>
 
         <p className='homeParagraph'>
-        Using data analysis to better inform the decision-making process.
+        Analysing data to better inform the decision-making process.
           <br/>I love coding cool things.
         </p>
 
