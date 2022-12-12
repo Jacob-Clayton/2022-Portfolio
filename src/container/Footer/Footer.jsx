@@ -38,7 +38,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <>
-      <h2 className='head-text'>Get in touch with <span>me</span></h2>
+      <h2 className='head-text'><span>Connect</span> with me</h2>
 
       <div className="app__footer-cards">
         <a href="http://linkedin.com/in/jebclayton">
@@ -51,10 +51,16 @@ const Footer = () => {
             <p className='p-text'>linkedin.com/in/jebclayton</p>
           </motion.div>
         </a>
-        <div className="app__footer-card1">
-          <img src={images.gmail} alt="email" />
-          <p className="p-text">jacobeclayton@gmail.com</p>
-        </div>
+        <a href="mailto:jacobeclayton@gmail.com">
+        <motion.div 
+          className="app__footer-card"
+          whileHover={{scale:0.985}}
+          whileTap={{scale:0.9}}        
+          >
+            <img src={images.gmail} alt="email" />
+            <p className="p-text">jacobeclayton@gmail.com</p>
+          </motion.div>
+        </a>
       </div>
       {/*<div className="scrollDiv">
           <motion.a 

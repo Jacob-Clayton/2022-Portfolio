@@ -4,9 +4,14 @@
   flex-direction: column;
 
   h2 {
+
     @media screen and (max-width: 700px) {
       font-size: 2.2rem;
       line-height: 2.4rem;
+  
+      @media screen and (max-width: 2000px) {
+        font-size: 1.8rem;
+      }
     }
   }
 }
@@ -33,7 +38,7 @@
 }
 
 .app__profile-item {
-  width: 220px;
+  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,31 +49,36 @@
     font-family: var(--font-base);
     width: 100%;
     text-align: center;
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.1rem;
 
     @media screen and (max-width: 700px) {
-      font-size: 1rem;
+      font-size: 0.94rem;
     }
 
-    @media screen and (max-width: 1600px) {
-      font-size: 1rem;
+    @media screen and (min-width: 2000px) {
+      font-size: 1.4rem;
     }
   }
 
   p {
     width: 100%;
-    text-align: center;
-    font-size: 0.96rem;
+    text-align: left;
+    font-size: 0.9rem;
     font-weight: 400;
 
-    @media screen and (max-width: 1600px) {
-      font-size: 0.92rem;
+    @media screen and (max-width: 700px) {
+      font-size: 0.83rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+      font-size: 1.2rem;
     }
   }
 
   img {
-    width: 75%;
+    margin-top: 1.5rem;
+    width: 30%;
     height: auto;
     border-radius: 15px;
     object-fit: cover;
