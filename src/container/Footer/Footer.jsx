@@ -48,17 +48,17 @@ const Footer = () => {
           whileTap={{scale:0.9}}        
           >
             <img src={images.linkedin} alt="linkedin" />
-            <p className='p-text'>linkedin.com/in/jebclayton</p>
+            <p className='p-text'>linkedin/in/jebclayton</p>
           </motion.div>
         </a>
-        <a href="mailto:jacobeclayton@gmail.com">
+        <a href="mailto:me@jacobclayton.dev">
         <motion.div 
           className="app__footer-card"
           whileHover={{scale:0.985}}
           whileTap={{scale:0.9}}        
           >
             <img src={images.gmail} alt="email" />
-            <p className="p-text">jacobeclayton@gmail.com</p>
+            <p className="p-text">me@jacobclayton.dev</p>
           </motion.div>
         </a>
       </div>
