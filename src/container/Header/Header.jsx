@@ -1,14 +1,10 @@
 import React from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {BsChevronDoubleDown} from 'react-icons/bs'
 import { AppWrap } from '../../wrapper'
 import './Header.scss';
 
-
 const Header = () => {
-
-  const {scrollYProgress} = useScroll();
-  const x = useTransform(scrollYProgress, [0, 1], [0, -600]);
 
   return (
     <motion.section 
@@ -27,9 +23,9 @@ const Header = () => {
           Jacob Clayton
         </h1>
 
-        <motion.span className="subTitle" style={x}>
+        <span className="subTitle">
           Data Analyst and Full-Stack Developer.
-        </motion.span>
+        </span>
 
         <p className='homeParagraph'>
         Transforming data into actionable intelligence.
@@ -42,7 +38,7 @@ const Header = () => {
           className="flex"
           whileInView={{ opacity: [0, 1] }}
           whileTap={{opacity: 0.2, scale: 0.95}}
-          transition={{duration: 3}}
+          transition={{duration: 4}}
           >
             <BsChevronDoubleDown className="icon"/>
           </motion.a>

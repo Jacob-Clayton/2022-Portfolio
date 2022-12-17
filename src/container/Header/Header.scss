@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     font-family: var(--font-jost);
+    overflow: hidden;
   
     // disable the default padding styles
     .app__wrapper {
@@ -152,23 +153,23 @@
 
         @keyframes move {
           0% {
-            opacity: .8;
+            opacity: 1;
             transform: translateY(4px);
           }
           25% {
-            opacity: .3;
+            opacity: .7;
             transform: translateY(0px);
           }
           50% {
-            opacity: .8;
+            opacity: 1;
             transform: translateY(4px);
           }
           75% {
-            opacity: .3;
+            opacity: .7;
             transform: translateY(0px);
           }
           100% {
-            opacity: .8;
+            opacity: 1;
             transform: translateY(4px);
           }
         }
