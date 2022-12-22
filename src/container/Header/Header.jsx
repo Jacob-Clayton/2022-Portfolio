@@ -11,7 +11,7 @@ const Header = ({ text = 'Jacob Clayton' }) => {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: 0.2 * i },
+      transition: { staggerChildren: 0.08, delayChildren: 0.15 * i },
     }),
   };
 
