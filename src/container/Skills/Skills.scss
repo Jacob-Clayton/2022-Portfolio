@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-right: 5rem;
+    margin-right: 2rem;
   
     @media screen and (max-width: 900px) {
       margin-right: 0;
@@ -38,12 +38,10 @@
     margin: 1.2rem;
 
     div {
-      width: 90px;
-      height: 90px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
-      background-color: #e2edf6;
-      background-image:linear-gradient(to bottom, transparent, rgb(255, 255, 255));
-      
+      background-color: #e2edf6;      
   
       img {
         width: 55%;
@@ -51,7 +49,7 @@
         transition: all 0.5s ease-in-out;
 
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.1);
         }
       }
   
@@ -60,8 +58,8 @@
       }
   
       @media screen and (min-width: 2000px) {
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
       }
   
       @media screen and (max-width: 450px) {
@@ -73,6 +71,7 @@
     p {
       font-weight: 500;
       margin-top: 0.5rem;
+      font-size: 0.78rem;
     }
   
     @media screen and (min-width: 2000px) {
@@ -80,7 +79,7 @@
   
       p {
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
     }
   }
