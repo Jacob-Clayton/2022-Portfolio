@@ -38,7 +38,7 @@
 }
 
 .app__profile-item {
-  width: 250px;
+  width: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,20 +51,21 @@
     text-align: center;
     font-weight: 400;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 700px) {
       font-size: 0.94rem;
     }
 
     @media screen and (min-width: 2000px) {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   }
 
   p {
-    width: 100%;
+    width: 90%;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.83rem;
     font-weight: 400;
 
     @media screen and (max-width: 700px) {
@@ -72,7 +73,7 @@
     }
 
     @media screen and (min-width: 2000px) {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -85,20 +86,21 @@
   }
 
   @media screen and (min-width: 2000px) {
-    width: 310px;
-    margin: 2rem 3rem;
+    width: 300px;
+    margin: 2rem 2.5rem;
 
     img {
-      width: 80%;
+      width: 50%;
       height: auto;
+      margin-top: 2rem;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
     }
   }
 }
