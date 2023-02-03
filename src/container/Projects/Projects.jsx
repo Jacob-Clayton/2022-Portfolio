@@ -38,7 +38,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="head-text"><span>Portfolio</span> Projects</h2>
+      <h2 className="head-text">Portfolio Projects</h2>
 
       <div className="app__work-filter">
         {['Python', 'Front End', 'SQL', 'Visualisation', 'All'].map((item, index) => (
@@ -73,7 +73,7 @@ const Projects = () => {
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.90] }}
+                    whileHover={{ scale: [1, 0.98] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
@@ -83,7 +83,7 @@ const Projects = () => {
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.90] }}
+                    whileHover={{ scale: [1, 0.98] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
