@@ -100,6 +100,7 @@ const Skills = () => {
               </motion.div>
             </motion.div>
           ))} 
+          {/*
           <div className="app__skills-exp">
             <motion.div 
             className="app__skills-exp-item"
@@ -123,7 +124,8 @@ const Skills = () => {
                 </motion.div>
               </motion.div>
             </motion.div>
-          </div>     
+          </div>  
+          */}   
         </div>
       </div>
     </>
