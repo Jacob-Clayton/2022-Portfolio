@@ -1,3 +1,12 @@
+#projects {
+    position: relative;
+    background: linear-gradient(to bottom, var(--nansen-dgreen-color), var(--nansen-bg-color), var(--nansen-bg-color), var(--nansen-bg-color), var(--nansen-bg-color), var(--nansen-dgreen-color));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
 .app__works {
     flex: 1;
     width: 80%;
@@ -25,7 +34,7 @@
       margin: 0.5rem;
   
       &:hover {
-        background-color: var(--secondary-color);
+        background-color: var(--nansen-green-color);
         color: #fff;
       }
   
@@ -37,7 +46,7 @@
     }
   
     .item-active {
-      background-color: var(--secondary-color);
+      background-color: var(--nansen-green-color);
       color: #fff;
     }
   }
@@ -58,9 +67,8 @@
       
       margin: 1rem;
       padding: 1rem;
-      border-radius: 0.6rem;
-      background-color: #fff;
-      color: #000;
+      border-radius: 5px;
+      background-color: var(--nansen-dgreen-color);
   
       cursor: pointer;
       transition: all 0.3s ease;
@@ -91,7 +99,7 @@
     img {
       width: 100%;
       height: 100%;
-      border-radius: 0.6rem;
+      border-radius: 5px;
       object-fit: cover;
     }
   
@@ -110,7 +118,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   
-    border-radius: 0.5rem;
+    border-radius: 5px;
     opacity: 0;
     transition: all 0.3s ease;
   
@@ -119,11 +127,11 @@
       height: 50px;
       border-radius: 50%;
       background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
+      color: var(--nansen-bg-color);
       text-overflow: ellipsis " [..]";
   
       margin: 1rem;
-      font-family: var(--font-base);
+      font-family: var(--font-jost);
       font-weight: 800;
       cursor: pointer;
       transition: all 0.3s ease-in-out;
@@ -145,6 +153,7 @@
     
 
     p {
+      color: var(--lightGray-color);
       @media screen and (min-width: 2000px) {
         font-size: 1.3rem;
       }
@@ -155,6 +164,7 @@
       line-height: 1.5;
       font-weight: 500;
       font-size: 1.1rem;
+      color: var(--white-color);
   
       @media screen and (min-width: 2000px) {
         margin-top: 2.5rem;
@@ -167,8 +177,8 @@
       position: absolute;
   
       padding: 0.5rem 1rem;
-      border-radius: 10px;
-      background-color: #fff;
+      border-radius: 7px;
+      background-color: var(--nansen-dgreen-color);
       top: -25px;
     }
   }

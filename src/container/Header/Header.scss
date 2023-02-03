@@ -1,7 +1,6 @@
 #home {
     position: relative;
-    background: linear-gradient(to bottom, transparent, var(--white-color)), 
-    url("../../assets/cloud.png");
+    background: linear-gradient(to bottom, var(--nansen-bg-color), var(--nansen-dgreen-color));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +26,7 @@
       .introText {
         font-size: 1.2rem;
         line-height: 1rem;
-        color: var(--gray-color);
+        color: var(--lightGray-color);
         font-weight: 400;
         letter-spacing: 0.3px;
 
@@ -43,7 +42,7 @@
 
       .title {
         font-size: 5rem;
-        color: var(--secondary-color);
+        color: var(--nansen-green-color);
         font-weight: 500;
         line-height: 5rem;
         padding-top: 0.3rem;
@@ -66,7 +65,7 @@
         display: block;
         font-size: 3.4rem;
         font-weight: 500;
-        color: var(--gray-color);
+        color: var(--white-color);
         line-height: 2.8rem;
         padding-bottom: 1rem;
         padding-top: 1rem;
@@ -86,7 +85,7 @@
 
       .homeParagraph {
         font-size: 1.2rem;
-        color: var(--gray-color);
+        color: var(--lightGray-color);
         padding-top: 0.5rem;
         padding-bottom: 4rem;
         max-width: 600px;
@@ -139,7 +138,7 @@
 
         .icon {
           font-size: 2.5rem;
-          color: var(--secondary-color);
+          color: var(--nansen-green-color);
           animation: move 5s infinite;
 
           @media screen and (min-width: 2000px) {

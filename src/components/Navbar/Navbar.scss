@@ -6,10 +6,10 @@
     align-items: center;
 
     padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.25);
+    background: var(--nansen-dgreen-color), 0.18;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px, solid rgba(255, 255, 255, 0.18);
+    border: 1px, solid var(--nansen-dgreen-color), 0.18;
     position: fixed;
     z-index: 2;
 }
@@ -22,8 +22,8 @@
     p {
         font-family: var(--font-jost);
         font-weight: 500;
-        font-size: 1.4rem;
-        color: var(--secondary-color);
+        font-size: 1.5rem;
+        color: var(--nansen-green-color);
 
         @media screen and (min-width: 2000px) {
             font-size: 1.8rem;
@@ -49,15 +49,15 @@
     list-style: none;
 
     li {
-        margin: 0 0.8rem;
+        margin: 0 1rem;
         cursor: pointer;
         position: relative left 50px;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         flex-direction: row;
 
         &:hover {
             div {
-                background: var(--secondary-color);
+                background: var(--nansen-green-color);
             }
         }
 
@@ -71,7 +71,7 @@
 
         a {
             font-family: var(--font-jost);
-            color: var(--gray-color);
+            color: var(--white-color);
             text-decoration: none;
             flex-direction: row;
             text-transform: capitalize;
@@ -87,7 +87,7 @@
               }
 
             &:hover {
-               color: var(--secondary-color); 
+               color: var(--nansen-green-color); 
             }
         }
     }

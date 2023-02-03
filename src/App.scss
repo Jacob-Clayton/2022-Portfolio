@@ -10,6 +10,14 @@
   .app__primarybg {
     background-color: var(--primary-color);
   }
+
+  .app__nansenbg {
+    background-color: var(--nansen-bg-color);
+  }
+
+  .app__nansendgreenbg {
+    background-color: var(--nansen-dgreen-color);
+  }
   
   .app__container {
     width: 100%;
@@ -47,7 +55,7 @@
   
     p {
       text-transform: uppercase;
-      color: var(--gray-color);
+      color: var(--lightGray-color);
       font-weight: 200;
       line-height: 1.2;
       font-size: 0.7rem;
@@ -67,12 +75,12 @@
     font-size: 3rem;
     font-weight: 500;
     text-align: center;
-    color: var(--gray-color);
+    color: var(--white-color);
     text-transform: capitalize;
     line-height: 4rem;
   
     span {
-      color: var(--secondary-color);
+      color: var(--nansen-green-color);
     }
   
     @media screen and (min-width: 2000px) {
@@ -107,7 +115,7 @@
   .p-text {
     font-size: 0.8rem;
     text-align: left;
-    color: var(--gray-color);
+    color: var(--lightGray-color);
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
@@ -118,7 +126,7 @@
   .bold-text {
     font-size: 1rem;
     font-weight: 800;
-    color: var(--black-color);
+    color: var(--lightGray-color);
     text-align: left;
   
     @media screen and (min-width: 2000px) {
@@ -142,9 +150,9 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: rgb(255, 255, 255, 0.2);
+      background-color: rgb(255, 255, 255, 0.05);
       margin: 0.25rem 0;
-      border: 1px solid var(--lightGray-color);
+      border: 1px solid var(--darkgray-color);
   
       display: flex;
       justify-content: center;
@@ -155,16 +163,15 @@
       svg {
         width: 16px;
         height: 16px;
-        color: var(--gray-color);
+        color: var(--lightGray-color);
       }
   
       &:hover {
-        background-color: var(--secondary-color);
-        border-color: var(--secondary-color);
+        border-color: var(--nansen-green-color);
         transform: translate(0, -1px);
   
         svg {
-          color: var(--white-color);
+          color: var(--nansen-green-color);
         }
       }
   
@@ -195,13 +202,13 @@
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background-color: #cbcbcb;
+      background-color: var(--darkgray-color);
       margin: 0.5rem;
   
       transition: background-color 0.2s ease-in-out;
   
       &:hover {
-        background-color: var(--secondary-color);
+        background-color: var(--nansen-green-color);
       }
   
       @media screen and (min-width: 2000px) {

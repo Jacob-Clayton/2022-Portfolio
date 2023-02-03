@@ -45,7 +45,7 @@ const Footer = () => {
           <motion.div 
           className="app__footer-card"
           whileHover={{scale:0.985}}
-          whileTap={{scale:0.9}}        
+          whileTap={{scale:0.98}}        
           >
             <img src={images.linkedin} alt="linkedin" />
             <p className='p-text'>linkedin/in/jebclayton</p>
@@ -151,5 +151,5 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
   'contact',
-  'app__primarybg',
+  'app__nansenbg',
 );

@@ -1,11 +1,20 @@
+#skills {
+    position: relative;
+    background: linear-gradient(to bottom, var(--nansen-dgreen-color), var(--nansen-dgreen-color), var(--nansen-dgreen-color), var(--nansen-dgreen-color), var(--nansen-dgreen-color), var(--nansen-bg-color));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
 .app__skills {
     flex: 1;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
   }
   
   .app__skills-container {
-    width: 82%;
+    width: 80%;
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
@@ -22,8 +31,8 @@
     grid-template-columns: repeat(4, 1fr); /*3 columns with equal width */
     justify-items: center; /* align items horizontally to the center */
     align-items: center; /* align items vertically to the center */
-    grid-row-gap: 0.4rem;
-    grid-column-gap: 0.2rem;
+    grid-row-gap: 1rem;
+    grid-column-gap: 0.1rem;
     margin-right: 5rem;
   
     @media screen and (max-width: 1000px) {
@@ -40,15 +49,15 @@
     text-align: center;
 
     div {
-      width: 80px;
-      height: 80px;
+      width: 75px;
+      height: 75px;
       border-radius: 50%;
-      background-color: #e2edf6;      
+      background-color: var(--nansen-bg-color);      
   
       img {
-        width: 55%;
-        height: 55%;
-        transition: all 0.5s ease-in-out;
+        width: 60%;
+        height: 60%;
+        transition: all 0.2s ease-in-out;
 
         &:hover {
           transform: scale(1.1);
@@ -56,7 +65,7 @@
       }
   
       &:hover {
-        box-shadow: 0 0 15px #f1f9ff;
+        box-shadow: 0 0 15px var(--nansen-bg-color);
       }
   
       @media screen and (min-width: 2000px) {
@@ -74,6 +83,7 @@
       font-weight: 500;
       margin-top: 0.5rem;
       font-size: 0.78rem;
+      color: var(--lightGray-color);
     }
   
     @media screen and (min-width: 2000px) {
@@ -134,9 +144,9 @@
   
       .p-text {
         font-weight: 400;
-        color: var(--black-color);
+        color: var(--lightGray-color);
         margin-top: 2px;
-        font-size: 0.83rem;
+        font-size: 0.9rem;
 
         @media screen and (min-width: 2000px) {
           font-weight: 400;
@@ -151,10 +161,10 @@
 
       .p-text-company {
         font-size: 0.95rem;
-        font-weight: 400;
+        font-weight: 600;
         color: var(--gray-color);
         margin-top: 2px;
-        margin-bottom: 2px;
+        margin-bottom: 0.4rem;
 
         @media screen and (min-width: 2000px) {
           font-weight: 400;
@@ -173,9 +183,9 @@
     margin-right: 2rem;
   
     p {
-      font-weight: 800;
+      font-weight: 700;
       font-size: 1.1rem;
-      color: var(--secondary-color);
+      color: var(--nansen-green-color);
 
       @media screen and (max-width: 450px) {
         font-size: 0.9rem;
