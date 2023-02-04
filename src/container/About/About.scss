@@ -17,17 +17,55 @@
 }
 
 .intro {
-  margin-top: 3rem;
-  margin-bottom: 0rem;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+
+  @media screen and (max-width: 700px) {
+    width: 85%;
+  }
+
+  @media screen and (min-width: 2000px) {
+    margin-bottom: 6rem;
+  }
+
+  h2 {
+    font-family: var(--font-jost);
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+
+    @media screen and (max-width: 700px) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+      font-size: 2.5rem;
+    }
+  }
 
   p {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    @media screen and (max-width: 700px) {
+      font-size: 0.94rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+      font-size: 1.2rem;
+    }
   }
-}
+  }
 
 .app__profiles {
   display: flex;
@@ -51,7 +89,7 @@
     width: 100%;
     text-align: center;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     margin-bottom: 0.4rem;
 
     @media screen and (max-width: 700px) {
@@ -66,11 +104,12 @@
   p {
     width: 90%;
     text-align: left;
-    font-size: 0.855rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 300;
 
     @media screen and (max-width: 700px) {
-      font-size: 0.83rem;
+      font-size: 0.87rem;
+      width: 100%;
     }
 
     @media screen and (min-width: 2000px) {
@@ -84,6 +123,11 @@
     height: auto;
     border-radius: 15px;
     object-fit: cover;
+  }
+
+  @media screen and (max-width: 700px) {
+    width: 85%;
+    margin-bottom: 1rem;
   }
 
   @media screen and (min-width: 2000px) {
