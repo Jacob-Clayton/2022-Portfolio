@@ -20,12 +20,13 @@ const About = () => {
     <>
       <div className='intro'>
       <h2 className="head-text">About me</h2>
-        <p className='p-text'>Hello, my name is Jacob. I'm a Blockchain Analyst,
+        <p className='p-text'>Hello, my name is Jacob. 
+                              <br/>I'm a Blockchain Analyst,
                                Developer, Web3 Founder,
-                               speaker on Web3 panels and podcasts 
+                               speaker on Web3 panels 
                                <nobr> and an all-round crypto guy. </nobr>
-                               I love to play around with data and build cool things.
-                               <nobr> I also manage the 10th most sold NFT project.</nobr></p>
+                               Love playing around with data and building cool things.
+                               I also manage the 10th most sold NFT project.</p>
       </div>
       <h2 className="head-text">I turn data into <span>intelligence</span></h2>
 
