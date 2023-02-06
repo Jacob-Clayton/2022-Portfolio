@@ -24,8 +24,8 @@ const About = () => {
                               <br/>I'm a Blockchain Analyst,
                                Developer, Web3 Founder,
                                speaker on Web3 panels 
-                               <nobr> and an all-round crypto guy. </nobr>
-                               Love playing around with data and building cool things.
+                               and an all-round crypto guy. 
+                               You can usually find me playing around with data and building cool things.
                                I also manage the 10th most sold NFT project.</p>
       </div>
       <h2 className="head-text">I turn data into <span>intelligence</span></h2>
