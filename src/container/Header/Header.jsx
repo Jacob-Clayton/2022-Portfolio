@@ -62,7 +62,7 @@ const Header = ({ text = 'Jacob Clayton' }) => {
         </motion.h1>
 
         <span className="subTitle">
-          Blockchain Analyst and Full Stack Developer.
+          Full Stack Developer and Blockchain Analyst.
         </span>
 
         <p className='homeParagraph'>
