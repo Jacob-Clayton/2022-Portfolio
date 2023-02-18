@@ -89,7 +89,7 @@
     font-family: var(--font-base);
     width: 100%;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.15rem;
     margin-bottom: 0.4rem;
 
@@ -125,7 +125,7 @@
     }
 
     @media screen and (min-width: 2000px) {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 
@@ -142,13 +142,13 @@
   }
 
   @media screen and (max-width: 700px) {
-    width: 85%;
+    width: 80%;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
   }
 
   @media screen and (min-width: 1400px) {
-    width: 320px;
+    width: 300px;
   }
 
   @media screen and (min-width: 2000px) {
@@ -156,17 +156,9 @@
     margin: 2rem 2.5rem;
 
     img {
-      width: 50%;
+      width: 40%;
       height: auto;
       margin-top: 2rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-    }
-
-    h2 {
-      font-size: 1.35rem;
     }
   }
 }
