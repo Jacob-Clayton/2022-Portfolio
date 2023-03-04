@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import { BsChevronDoubleUp } from 'react-icons/bs'
@@ -47,7 +46,7 @@ const Footer = () => {
           whileHover={{scale:0.985}}
           whileTap={{scale:0.98}}        
           >
-            <img src={images.linkedin} alt="linkedin" />
+            <img src="linkedin.png" alt="linkedin" />
             <p className='p-text'>linkedin/in/jebclayton</p>
           </motion.div>
         </a>
@@ -57,7 +56,7 @@ const Footer = () => {
           whileHover={{scale:0.985}}
           whileTap={{scale:0.9}}        
           >
-            <img src={images.gmail} alt="email" />
+            <img src="gmail.png" alt="email" />
             <p className="p-text">me@jacobclayton.dev</p>
           </motion.div>
         </a>
