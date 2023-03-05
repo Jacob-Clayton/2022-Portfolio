@@ -31,7 +31,7 @@
     grid-template-columns: repeat(4, 1fr); /*3 columns with equal width */
     justify-items: center; /* align items horizontally to the center */
     align-items: center; /* align items vertically to the center */
-    grid-row-gap: 1.2rem;
+    grid-row-gap: 1.5rem;
     grid-column-gap: 0rem;
     margin-right: 5rem;
   
@@ -49,8 +49,8 @@
     text-align: center;
 
     div {
-      width: 75px;
-      height: 75px;
+      width: 72px;
+      height: 72px;
       border-radius: 50%;
       background-color: var(--nansen-bg-color);      
   
