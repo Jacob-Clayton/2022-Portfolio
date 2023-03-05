@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from "../../utils/motion";
-import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
+import { styles } from "../../styles";
+import { AppWrap } from '../../wrapper';
 import { projects } from "../../constants";
+import { SectionWrapper } from "../../hoc";
 import './Projects.scss';
+import '../../index.css';
 
 const ProjectCard = ({
   index,
@@ -17,9 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-      >
+      <div className='p-5 rounded-2xl sm:w-[360px] w-full'>
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -33,7 +32,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src='linkedin.svg'
+                src='node.png'
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -65,8 +64,8 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className="text-white font-bold">My work</p>
-        <h2 className="text-white font-bold">Projects.</h2>
+        <p className={`${styles.sectionSubText}`}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -91,7 +90,6 @@ const Projects = () => {
   );
 };
 
-
-export default AppWrap((Projects, 'app__works'),
+export default AppWrap((Projects),
   'projects',
 );

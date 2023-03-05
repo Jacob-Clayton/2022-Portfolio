@@ -7,62 +7,62 @@ import portfolio from '../assets/portfolio.png'
 
 const projects = [
     {
-      name: "Car Rent",
+      name: "BRIDGR Website",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "next.js",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "framermotion",
+          color: "green-text-gradient",
+        },
       ],
       image: bridgr,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "DEX Dashboard",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "sql",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "dashboard",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: dexdash,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Ethereum Analytics App",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "python",
+          color: "orange-text-gradient",
         },
         {
-          name: "supabase",
+          name: "api",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "json",
           color: "pink-text-gradient",
         },
       ],
@@ -70,20 +70,20 @@ const projects = [
       source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Portfolio",
         description:
           "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
           {
-            name: "nextjs",
+            name: "react.js",
             color: "blue-text-gradient",
           },
           {
-            name: "supabase",
+            name: "framermotion",
             color: "green-text-gradient",
           },
           {
-            name: "css",
+            name: "cms",
             color: "pink-text-gradient",
           },
         ],
@@ -91,41 +91,37 @@ const projects = [
         source_code_link: "https://github.com/",
       },
       {
-        name: "Trip Guide",
+        name: "Eth Gas Dashboard",
         description:
           "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
           {
-            name: "nextjs",
+            name: "sql",
             color: "blue-text-gradient",
           },
           {
-            name: "supabase",
+            name: "dashboard",
             color: "green-text-gradient",
-          },
-          {
-            name: "css",
-            color: "pink-text-gradient",
           },
         ],
         image: gasdash,
         source_code_link: "https://github.com/",
       },
       {
-        name: "Trip Guide",
+        name: "Chat Bot",
         description:
           "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
           {
-            name: "nextjs",
-            color: "blue-text-gradient",
+            name: "python",
+            color: "orange-text-gradient",
           },
           {
-            name: "supabase",
+            name: "api",
             color: "green-text-gradient",
           },
           {
-            name: "css",
+            name: "json",
             color: "pink-text-gradient",
           },
         ],
