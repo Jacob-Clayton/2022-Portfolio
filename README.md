@@ -6,6 +6,7 @@
 - React JS
 - SCSS/ CSS
 - Framer Motion
+- Github Pages Deployment
 #   
 
 
