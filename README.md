@@ -1,9 +1,12 @@
 # My Portfolio
 
 ### Live here: https://jacobclayton.dev
+ 
+## Tech Stack:
+- React JS
+- SCSS/ CSS
+- Framer Motion
 #   
-
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
