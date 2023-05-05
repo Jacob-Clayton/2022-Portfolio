@@ -1,43 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.3b0061ff.css",
-    "main.js": "/static/js/main.360b30fb.js",
-    "static/media/cloud.png": "/static/media/cloud.f3b890791adeda0f1b33.png",
+    "main.js": "/static/js/main.15133336.js",
     "static/media/kolsaspfpwhite.png": "/static/media/kolsaspfpwhite.71353167e9d93e2a7384.png",
-    "static/media/jacobpfp.png": "/static/media/jacobpfp.f74e7dfe1043823a5fde.png",
     "static/media/kolsaspfp.png": "/static/media/kolsaspfp.f8d0f962e9917ae940ea.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/bgblue2.png": "/static/media/bgblue2.68773a1c6b7260d0f052.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
     "static/media/bgblue.png": "/static/media/bgblue.8716d8e015270f321182.png",
-    "static/media/ucdavis.png": "/static/media/ucdavis.9c193a14853f853663a9.png",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
-    "static/media/pythonlarge.png": "/static/media/pythonlarge.6bc2584e444907e7cd0c.png",
-    "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
-    "static/media/michigan.png": "/static/media/michigan.6ce882f38964a17464ca.png",
     "static/media/gmail.png": "/static/media/gmail.db7c587eea0a5e89bcdc.png",
-    "static/media/meta.png": "/static/media/meta.b2ac113db01069f8d9b9.png",
-    "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
-    "static/media/sqllarge.png": "/static/media/sqllarge.ad98bb24ab0a9a3a8fdf.png",
-    "static/media/profile.png": "/static/media/profile.0fa062f3fae42dadf8ee.png",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
     "static/media/jclogosize.png": "/static/media/jclogosize.ea35b4463148e4b4280e.png",
     "static/media/google.png": "/static/media/google.d53f9e062a7bf6702e1e.png",
-    "static/media/apicog.png": "/static/media/apicog.9984d925e678537f61a9.png",
-    "static/media/tableaularge.png": "/static/media/tableaularge.aacc4137aa25e6af39fb.png",
-    "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
-    "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/amazon.png": "/static/media/amazon.0a8be1f53138b5c52456.png",
-    "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
     "static/media/jclogo.png": "/static/media/jclogo.28dba4053aeaae732953.png",
-    "static/media/figma.png": "/static/media/figma.152e55329b6f1915967e.png",
-    "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
-    "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
-    "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "static/media/ucdavisblue.svg": "/static/media/ucdavisblue.8d106006f1514ac598828ce38fab0fb1.svg",
     "static/media/bloblb.svg": "/static/media/bloblb.810bdcb6d2787c931b0b754d2612bf6d.svg",
     "static/media/blob.svg": "/static/media/blob.21353dd76f5319fcb592078b2afced98.svg",
@@ -45,10 +26,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.3b0061ff.css.map": "/static/css/main.3b0061ff.css.map",
-    "main.360b30fb.js.map": "/static/js/main.360b30fb.js.map"
+    "main.15133336.js.map": "/static/js/main.15133336.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0061ff.css",
-    "static/js/main.360b30fb.js"
+    "static/js/main.15133336.js"
   ]
 }
